@@ -11,8 +11,15 @@ config_version=5
 [application]
 
 config/name="quests_and_dragons"
+run/main_scene="res://tile_map.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+window/stretch/scale=4.0
 
 [rendering]
 

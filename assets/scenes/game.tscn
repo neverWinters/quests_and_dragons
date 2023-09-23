@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://5xhrf00prggp"]
+
+[ext_resource type="Script" path="res://assets/scripts/game_loop_manager.gd" id="1_0cnxv"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_0cnxv")
+
+[node name="Map" type="Node2D" parent="."]
+
+[node name="Player" type="Node2D" parent="."]
